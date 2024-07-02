@@ -26,7 +26,7 @@ class WeatherHandler(BaseHTTPRequestHandler):
                 self.send_error(400, 'City parameter missing')
 
     def get_weather(self, city):
-        url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid=6234fa3231c3a2a07903e4b043fe48bd&units=metric'
+      url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid=YOUR_API_KEY&units=metric'
         response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
