@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Result</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Weather in <span id="city_name"></span></h2>
+        <p>Temperature: <span id="temperature"></span>°C</p>
+        <p>Feels Like: <span id="feels_like"></span>°C</p>
+        <p>Minimum Temperature: <span id="min_temperature"></span>°C</p>
+        <p>Maximum Temperature: <span id="max_temperature"></span>°C</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="wind_speed"></span> km/hr</p>
+        <p>Description: <span id="description"></span></p>
+        <a href="/">Back</a>
+    </div>
+</body>
+</html>
