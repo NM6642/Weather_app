@@ -16,7 +16,7 @@ Before running this application, make sure you have the following installed:
 
  Open a web browser and navigate to `http://localhost:8000` to access the application.
 
- Enter a city name in the input field and click "Submit" to view weather information for that city.
+ Enter a city name in the input field and click "Get Weather" to view weather information for that city.
 
 ## Example
 
