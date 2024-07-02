@@ -26,6 +26,6 @@ Here's a screenshot of how the application looks:
 
 ## API Key
 
-This application uses the OpenWeatherMap API to fetch weather data. You need to provide your API key in `weather_app.py` (replace `YOUR_API_KEY` with your actual API key).
+This application uses the OpenWeatherMap API to fetch weather data. 
 
 
