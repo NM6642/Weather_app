@@ -23,6 +23,7 @@ Before running this application, make sure you have the following installed:
 Here's a screenshot of how the application looks:
 
 ![Weather App Screenshot](weather_app_screenshot.png)
+(capture2.png)
 
 ## API Key
 
